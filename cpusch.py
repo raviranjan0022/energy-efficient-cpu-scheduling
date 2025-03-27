@@ -91,9 +91,3 @@ cpus = [
     CPU("LittleCore2", "efficiency", 2.0, 1.5)
 ]
 
-scheduler = EnergyEfficientScheduler(cpus)
-scheduler.add_task(Task("Task1", 0.3))
-scheduler.add_task(Task("Task2", 0.5))
-scheduler.add_task(Task("Task3", 0.2))
-scheduler.add_task(Task("Task4", 0.8))
-scheduler.schedule_tasks()
