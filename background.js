@@ -94,9 +94,4 @@ document.addEventListener('DOMContentLoaded', function() {
             ctx.fill();
         }
         
-        requestAnimationFrame(animate);
-    }
-    
-    // Start animation
-    animate();
-});
+       
