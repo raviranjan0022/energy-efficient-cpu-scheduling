@@ -1,3 +1,4 @@
+#cpu scheduler 
 class CPU:
     def __init__(self, name, domain, base_power, max_freq):
         self.name = name
