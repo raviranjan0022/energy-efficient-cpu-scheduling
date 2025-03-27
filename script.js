@@ -410,5 +410,12 @@ function updatePerformanceChart() {
                 }
             }
         });
+        
         // Update existing chart
+        else {
+               performanceChart.data.datasets[0].data = frequencies;
+               performanceChart.data.datasets[1].data = utilizations;
+               performanceChart.data.datasets[2].data = energyValues;
+               performanceChart.update();
+    }
 }
