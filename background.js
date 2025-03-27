@@ -93,5 +93,10 @@ document.addEventListener('DOMContentLoaded', function() {
             ctx.fillStyle = gradient;
             ctx.fill();
         }
-        
+        requestAnimationFrame(animate);
+    }
+    
+    // Start animation
+    animate();
+}); 
        
